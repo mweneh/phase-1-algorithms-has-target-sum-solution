@@ -3,6 +3,7 @@ function hasTargetSum(array, target) {
   const seenNumbers= {}
   for (const num of array){
     //console.log(seenNumbers)
+    // n steps
     const complement = target- num
 
     if (complement in seenNumbers) return true
